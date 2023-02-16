@@ -1,11 +1,16 @@
-import './App.css';
+import "./App.css";
 
-import BlurBgAnimation from './components/BlurBgAnimation';
+import BlurBgAnimation from "./components/BlurBgAnimation";
+import NeonLightHover from "./components/NeonLightHover";
 
 function App() {
   return (
     <div className="App">
-      <BlurBgAnimation/>
+      <h1>Cool CSS animation collection</h1>
+      <div>
+        <BlurBgAnimation />\
+        <NeonLightHover/>
+      </div>
     </div>
   );
 }
