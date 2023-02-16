@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <h1>Cool CSS animation collection</h1>
-      <div>
-        <BlurBgAnimation />\
+      <div className="animationsContainer">
+        <BlurBgAnimation />
         <NeonLightHover/>
       </div>
     </div>
